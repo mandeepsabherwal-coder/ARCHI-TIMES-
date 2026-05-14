@@ -162,6 +162,136 @@ footer{margin-top:40px;padding-top:16px;border-top:5px double var(--rule);text-a
 .grand-key{font-size:12px;text-transform:uppercase;letter-spacing:1.8px;color:var(--gold);font-weight:700;}
 .grand-val{font-size:18px;color:var(--text);}
 
+
+/* Grand Tour Files uniform premium European editorial system */
+.grand-tour-edition .headline{
+  letter-spacing:-0.7px;
+  line-height:1.02;
+  max-width:980px;
+}
+.grand-tour-edition .deck{
+  max-width:920px;
+  line-height:1.62;
+  margin-top:10px;
+  margin-bottom:18px;
+}
+.grand-tour-edition .sgrid{
+  gap:34px;
+  align-items:start;
+}
+.grand-tour-edition .sphoto img{
+  filter:sepia(6%) contrast(1.02);
+}
+.grand-tour-edition .cap{
+  font-size:14px;
+  line-height:1.45;
+}
+.grand-tour-body{
+  font-size:clamp(17px,2.2vw,20px);
+  line-height:1.9;
+  letter-spacing:.01em;
+}
+.grand-tour-body p{
+  margin:0 0 1.25em;
+}
+.grand-tour-body p:first-child::first-letter{
+  font-family:'Playfair Display',serif;
+  font-size:4.8em;
+  font-weight:900;
+  float:left;
+  line-height:.74;
+  margin:.08em .12em 0 0;
+  color:var(--ink);
+}
+.grand-tour-edition .grand-register{
+  margin:34px 0 28px;
+  border-top:2px solid rgba(154,125,58,.55);
+  border-bottom:2px solid rgba(154,125,58,.55);
+  border-left:none;
+  border-right:none;
+  background:rgba(154,125,58,.045);
+  padding:20px 0;
+}
+.grand-tour-edition .grand-register-title{
+  font-family:'Cormorant Garamond',serif;
+  font-size:14px;
+  letter-spacing:5px;
+  text-transform:uppercase;
+  color:var(--gold);
+  border-bottom:1px solid rgba(154,125,58,.28);
+  padding:0 0 12px;
+  margin-bottom:12px;
+}
+.grand-tour-edition .grand-row{
+  grid-template-columns:170px 1fr;
+  padding:9px 0;
+}
+.grand-tour-edition .grand-key{
+  font-family:'Cormorant Garamond',serif;
+}
+.grand-tour-edition .grand-val{
+  font-family:'Cormorant Garamond',serif;
+  line-height:1.35;
+}
+@media(max-width:560px){
+  .grand-tour-edition .ed-head{
+    margin-bottom:20px;
+  }
+  .grand-tour-edition .headline{
+    font-size:clamp(31px,8.2vw,42px);
+    line-height:1.06;
+    letter-spacing:-0.45px;
+    margin-bottom:14px;
+  }
+  .grand-tour-edition .deck{
+    font-size:18px;
+    line-height:1.62;
+    padding-left:13px;
+    margin-bottom:16px;
+  }
+  .grand-tour-edition .sgrid{
+    gap:24px;
+  }
+  .grand-tour-edition .cap{
+    font-size:15.5px;
+    line-height:1.45;
+    margin-top:8px;
+    padding-top:7px;
+  }
+  .grand-tour-body{
+    font-size:20px;
+    line-height:1.9;
+    padding:0 2px;
+  }
+  .grand-tour-body p{
+    margin-bottom:1.32em;
+  }
+  .grand-tour-body p:first-child::first-letter{
+    font-size:4.25em;
+    margin:.09em .11em 0 0;
+  }
+  .grand-tour-edition .grand-register{
+    margin:30px 0 28px;
+    padding:18px 0;
+  }
+  .grand-tour-edition .grand-row{
+    display:block;
+    padding:10px 0;
+  }
+  .grand-tour-edition .grand-key{
+    margin-bottom:3px;
+  }
+  .grand-tour-edition .grand-val{
+    font-size:19px;
+  }
+  .grand-tour-edition .pull{
+    font-size:22px;
+    line-height:1.45;
+    padding:16px 8px;
+    margin:30px 0;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -932,7 +1062,7 @@ footer{margin-top:40px;padding-top:16px;border-top:5px double var(--rule);text-a
 </div>
 </div>
 
-<div id="ed-14" class="edition" style="display:none">
+<div id="ed-14" class="edition grand-tour-edition" style="display:none">
   <div class="ed-head">
     <div class="kicker">The Grand Tour Desk &nbsp;&middot;&nbsp; Rome Bureau &nbsp;&middot;&nbsp; May 14, 2026</div>
     <h1 class="headline">ROME WAS BUILT FOR POWER. SHE ARRIVES WITH PRESENCE.</h1>
@@ -946,7 +1076,7 @@ footer{margin-top:40px;padding-top:16px;border-top:5px double var(--rule);text-a
       <div class="cap">The traveller, already carrying the presence Rome is about to receive.</div>
     </div>
 
-    <div class="article">
+    <div class="sbody grand-tour-body">
       <p>Rome was built for power.</p>
       <p>It knows arches, columns, crowns, processions, names carved into stone, and the kind of grandeur that expects the world to look up.</p>
       <p>It knows emperors.</p>
@@ -992,7 +1122,7 @@ footer{margin-top:40px;padding-top:16px;border-top:5px double var(--rule);text-a
         <div class="grand-row"><div class="grand-key">Editorial Position</div><div class="grand-val">Rome was built for power. She arrives with presence.</div></div>
       </div>
 
-      <div class="pullq">Rome has emperors. She has her own rule.</div>
+      <div class="pull">Rome has emperors. She has her own rule.</div>
     </div>
   </div>
 </div>
